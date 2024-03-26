@@ -21,7 +21,8 @@ public class PhoneBehaviour : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-          gameObject.GetComponent<AudioSource>().PlayOneShot(phoneRing);
+        Debug.Log ("Hit");
+        gameObject.GetComponent<AudioSource>().PlayOneShot(phoneRing);
         }
     }
 }
