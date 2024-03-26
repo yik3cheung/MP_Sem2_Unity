@@ -439,7 +439,7 @@ Transform:
   m_GameObject: {fileID: 450133035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.97313, y: 0, z: 7.2894697}
+  m_LocalPosition: {x: -0.97313, y: 0, z: 6.8}
   m_LocalScale: {x: 34.060913, y: 22.991215, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1104,7 +1104,7 @@ Transform:
   m_GameObject: {fileID: 978159722}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.2, y: 5.753595, z: 5.3}
+  m_LocalPosition: {x: -6.36, y: 5.753595, z: 11.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1285,6 +1285,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 144634695}
     m_Modifications:
+    - target: {fileID: 3772475683010013469, guid: 683754683c8213e4ea879026d84be241, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5150829015901351959, guid: 683754683c8213e4ea879026d84be241, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_ShortDouble (Black) (2)
@@ -1902,8 +1906,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 383.8867, y: 139.9467, z: 520.3171}
-  m_Center: {x: 47.125813, y: -9.812212, z: 71.483574}
+  m_Size: {x: 383.8867, y: 166.06631, z: 520.3171}
+  m_Center: {x: 47.125813, y: -22.87208, z: 71.483574}
 --- !u!82 &1758212887
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1924,7 +1928,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.1421432
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
