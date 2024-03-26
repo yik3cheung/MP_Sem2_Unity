@@ -19,10 +19,11 @@ public class PhoneBehaviour : MonoBehaviour
 
     private void onTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
-        {
-        Debug.Log ("Hit");
-        gameObject.GetComponent<AudioSource>().PlayOneShot(phoneRing);
-        }
+        Debug.Log ("Return");
+        //if(other.tag == "Player")
+        //{
+        //Debug.Log ("Hit");
+        //gameObject.GetComponent<AudioSource>().PlayOneShot(phoneRing);
+        //}
     }
 }
