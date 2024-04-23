@@ -44,7 +44,7 @@ public class TriggerCube : MonoBehaviour
 
     public void PressYes()
     {
-        HideUI();
+        //HideUI();
         SceneManager.LoadScene("Classroom", LoadSceneMode.Single);
     }
 }
