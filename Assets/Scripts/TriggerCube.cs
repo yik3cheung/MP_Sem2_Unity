@@ -32,7 +32,8 @@ public class TriggerCube : MonoBehaviour
     public void HideUI()
     {
         ui.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void ShowUI()
@@ -44,7 +45,7 @@ public class TriggerCube : MonoBehaviour
 
     public void PressYes()
     {
-        //HideUI();
+        HideUI();
         SceneManager.LoadScene("Classroom", LoadSceneMode.Single);
     }
 }
