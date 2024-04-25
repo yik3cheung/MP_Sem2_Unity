@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndSceneUITextChange : MonoBehaviour
+public class EndSceneUIInitial : MonoBehaviour
 {
     public GameObject ui;
     public GameObject uitext1;
     public GameObject uitext2;
+    public GameObject uitext3;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        ui.SetActive(false);
     }
 
     // Update is called once per frame
@@ -25,14 +26,16 @@ public class EndSceneUITextChange : MonoBehaviour
         Debug.Log("Trigger Hit");
         if(other.tag == "Player")
         {
-            ChangeText();
+            ShowUI();
         }
     }
 
-    private void ChangeText()
+    public void ShowUI()
     {
         ui.SetActive(true);
-        uitext1.SetActive(false);
-        uitext2.SetActive(true);
+        uitext1.SetActive(true);
+        uitext2.SetActive(false);
+        uitext3.SetActive(false);
     }
 }
+
