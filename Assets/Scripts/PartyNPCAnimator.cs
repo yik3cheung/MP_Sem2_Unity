@@ -27,7 +27,7 @@ public class PartyNPCAnimator : MonoBehaviour
         if(other.tag == "Player")
         {
             animator.SetTrigger("talk");
-            Invoke("ShowUI",1);
+            Invoke("ShowUI",2);
         }
     }
 
