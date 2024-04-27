@@ -2255,10 +2255,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CI can\u2019t do this anymore\u201D I say. It\u2019s a cry for help,\nor
-    maybe even more than that at this point.\n\u201CEverything needs to end, right
-    here, right now.\u201D\r\n\n\u201CBut why?\u201D You ask.\r\n\nTo answer that,
-    we must go back to the beginning\u2026\r\n"
+  m_text: "\u201CI can\u2019t do this anymore\u201D I say as I pick up the phone.\nIt\u2019s
+    a cry for help, or maybe even more than that at this point.\n\u201CEverything
+    needs to end, right here, right now.\u201D\r\n\n\u201CBut why?\u201D You ask.\r\n\nTo
+    answer that, we must go back to the beginning\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d707900f2c4184833a9e1215ec73a385, type: 2}
   m_sharedMaterial: {fileID: 6197706777666803586, guid: d707900f2c4184833a9e1215ec73a385, type: 2}
@@ -2285,8 +2285,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.35
-  m_fontSizeBase: 30.35
+  m_fontSize: 31.1
+  m_fontSizeBase: 31.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

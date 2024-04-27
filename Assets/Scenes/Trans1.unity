@@ -491,7 +491,7 @@ RectTransform:
   m_LocalScale: {x: 0.8898777, y: 0.8898777, z: 0.8898777}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1182188584}
+  m_Father: {fileID: 1326937126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -519,8 +519,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\u201CIt was never that easy, people don\u2019t just talk with you because
-    you approached them, at least not for people like me.\u201D It\u2019s true, no
-    one even cared to laid their eyes on me as if I don\u2019t exist."
+    you approached them, at least not for people like me.\u201D\nIt\u2019s true,
+    no one even cared to laid their eyes on me as if I don\u2019t exist.\r\n\n\u201CI\u2019m
+    sure things has changed right?\nLook you\u2019re still here years later.\u201D
+    You say.\r\n\nWas it though? We\u2019ll see\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d707900f2c4184833a9e1215ec73a385, type: 2}
   m_sharedMaterial: {fileID: 6197706777666803586, guid: d707900f2c4184833a9e1215ec73a385, type: 2}
@@ -692,7 +694,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1326937126}
-  - {fileID: 761814708}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -824,6 +825,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 761814708}
   - {fileID: 2051659121}
   m_Father: {fileID: 1182188584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
